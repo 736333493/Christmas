@@ -8,10 +8,32 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-
+<style type="text/css">
+	.btn{
+		
+	}
+	.btn>button{
+		background: orange;
+		border: none;
+	}
+</style>
 	</head>
 	<body>
 		<div class="container">
+			<div class="btn"><button type="button" id="friend">朋友</button>
+			<button type="button" id="lovers">情侣</button></div>
+			<div id="center_lovers" style="display: none;">
+				<p>这里没有你所想看的东西，那些东西你应该已经看完了</p>
+			</div>
+			<div id="center_friend" style="display: none; color: #000000; background: #fff; overflow-y: auto; position: fixed; height: 600px;">
+				<p>你想要的应该是我都你的包容，对你的宠爱，对不起，在一起那么久苦了你了，对不起，或许一句对不起，无法弥补我对你的伤害，所以还是把我忘了吧！重新开始你新的生命旅程吧！别浪费时间在我身上了，你会遇到那个你想要的那个人的！</p>
+				<p>其实在很早之前，我们刚开始在一起的时候经常吵架各种不合，那时候我大概已经知道我们不会很长远的，无非就是两个人其中一个人改变去迎合另一个人，然后让这段感情继续下去，最后在我们的争吵中，你选择了妥协，迎合我的意思，慢慢的什么事都开始听我的，为了我，你改变了很多，但是我也越来越得寸进尺了，因为我已经习惯了你对我言听计从，也越来越依靠我了。但你不在按照我说的或者我想的去做或者改变，我肯定会骂你或者发脾气这些，因为我已经决得理所当然了，我说你，你都选择默默不吭声让我骂！从最开始的想让你对我言听计从百依百顺到让你自己面对现实和生活和困难，从而达到我心中最好的那个女朋友，我知道你也是为了迎合我，在做改变，从不打扮，到化妆，到衣服性感，到成熟一点一点的改变，我知道你为了我，你做的太多太多了，但是我也越来越不觉得知足，一直要求你，要求也越来越高，也越来越没人性。当你无非达到我的要求的时候我说的话也越来越重，越来越让你寒心！从儿彻底失去，或许我早知道自己会失去你的一天吧！我大一的时候给了你一张爱情支票还记得吗？那张支票是有时间限制的，只能在大学期间让我们复合，但是我不介意你用，因为真的没必要，因为我也不想在伤害你了，因为这几年只有你一个人在改变，而我只有变的越来越渣，越来越自私自利，越来越缠你的身子，只想霸占你的身子，占有你的身体，或许我已经进入了变态的阶段了，因为到后面这段时间只想和你做爱，和你抱着一起睡觉，就连见你也是为了和你过夜，所以你还是远离我吧！别让我在伤害你了，也别对我好了，你要自己照顾好自己，爱自己，别再傻傻的为我着想了，把我忘了吧！去寻找那个可以陪你一辈子的那个他吧！祝你幸福！
+</p>
+<div style="float: right;"> 不该爱的人
+</div>
+<p>（忠告：把菱角磨了，你会在公司混的很好的，至于怎么磨看你自己的了！）
+</p>
+			</div>
 			<canvas id="snowfall"></canvas>
 			<div id="merrywrap" class="merrywrap">
 				<div class="giftbox">
@@ -1527,15 +1549,17 @@
 					</svg>
 					<div>
 						爱是行驶在生命旅程上的巴士，你我偶然相遇在此，共度一段美好的时光，如今我却要独自到终点。
+			
 					</div>
 				</div>
 			</div>
 		</div>
+				
 		<!-- /container -->
 		<script src="js/rectangleEmitter.js"></script>
 		<script src="js/snow.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
-
+<script src="js/friend.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>
